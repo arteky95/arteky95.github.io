@@ -1,5 +1,5 @@
 RewriteEngine on
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^m\.suuk\.su$
+RewriteCond %{HTTP_HOST} ^m\.arteky95\.github\.io$
 RewriteCond %{REQUEST_URI} !/m/
 RewriteRule ^(.*)$ /m/$1 [L]
